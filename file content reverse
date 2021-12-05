@@ -1,0 +1,41 @@
+#inclue<stdio.h>
+#include<conio.h>
+int main()
+{
+file*fp;
+char ch,my captain;
+int i=0,j, count=0;
+printf("enter the file name with extension:");
+gets(fname);
+fp=fopen(my captain);
+if(!fp)
+{
+printf("error in opening the file...\nexiting...");
+getch();
+return 0;
+}
+printf('\n the original content is:\n\n");
+ch=getc(fp0;
+while(ch!=eof)
+{
+count++;
+putchar(ch0;
+newch(i)=ch;
+i++;
+ch=getc(fp);
+}
+printf("\n\n\n);
+printf('the content in reverse order is:\n\n);
+for(j=(count-1);j>=0;j--)
+{
+ch=newch(j);
+printd("%c",ch);
+}
+
+printf("\n);
+getch();
+return 0;
+}
+
+
+
